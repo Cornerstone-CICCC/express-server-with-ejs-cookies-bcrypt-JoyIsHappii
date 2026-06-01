@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "express": "^5.2.1"
+  },
+  "name": "express-server-with-ejs-cookies-bcrypt-joyishappii",
+  "version": "1.0.0",
+  "description": "1. **Setup Server with EJS:**    - Configure your server to use EJS as the view engine.    - Define the directories for static files and EJS templates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx app/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cornerstone-CICCC/express-server-with-ejs-cookies-bcrypt-JoyIsHappii.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Cornerstone-CICCC/express-server-with-ejs-cookies-bcrypt-JoyIsHappii/issues"
+  },
+  "homepage": "https://github.com/Cornerstone-CICCC/express-server-with-ejs-cookies-bcrypt-JoyIsHappii#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.9.1",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
