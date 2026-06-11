@@ -3,12 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <a href="/login">Login</a>
-    <a href="/register">Register</a>
+    <main class="page-card">
+      <h1>Home Page</h1>
 
+      <% if (email) { %>
+        <h2>Welcome <%= email %></h2>
+        <a class="link-button" href="/logout">Logout</a>
+      <% } else { %>
+        <div class="link-group">
+          <a class="link-button" href="/login">Login</a>
+          <a class="link-button" href="/register">Register</a>
+        </div>
+      <% } %>
+
+    </main>
   </body>
 </html>
